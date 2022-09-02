@@ -4,7 +4,7 @@ import Numbers from "./Numbers";
 
 const Why = () => {
   return (
-    <div>
+    <div className="mb-32">
       <Numbers />
       <Content />
     </div>
