@@ -1,18 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Calculate from "./Calculate";
 
 const Earn = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+    AOS.refresh();
+  }, []);
   return (
-    <div className="relative text-white mb-32 pb-32">
-      <h1 className="text-4xl font-bold text-center">
+    <div className="relative text-white mb-10 pb-32">
+      <h1
+        className="text-4xl font-bold text-center"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
         Check how much you can earn
       </h1>
-      <div className="text-center">
+      <div
+        className="text-center"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
         <p>Let's check your hash rate to see how much you can earn today.</p>
         <p>you can earn as much as</p>
       </div>
 
-      <div className="absolute top-64 left-[400px] right-[400px]">
+      <div
+        className="absolute md:top-32 lg:top-32 md:left-[200px] md:right-[200px] lg:top-32 lg:left-[400px] lg:right-[400px]"
+        data-aos="zoom-in"
+      >
         <Calculate />
       </div>
     </div>

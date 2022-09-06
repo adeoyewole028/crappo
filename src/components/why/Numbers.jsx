@@ -5,10 +5,10 @@ import Earth from "../../images/earth.png";
 
 const Numbers = () => {
   return (
-    <div className="flex justify-between text-white px-5 mb-32">
-      <div className="flex space-x-5">
+    <div className="flex md:flex-row flex-col md:justify-between text-white md:mb-16 space-y-10 md:space-y-0">
+      <div className="w-64 flex space-x-5 self-center">
         <div className="w-12">
-          <img src={Chart} />
+          <img src={Chart} alt="chart"/>
         </div>
 
         <div className="flex flex-col">
@@ -17,9 +17,9 @@ const Numbers = () => {
         </div>
       </div>
 
-      <div className="flex space-x-5">
+      <div className="w-64 flex space-x-5 self-center">
         <div className="w-12">
-          <img src={User} />
+          <img src={User} alt="user" />
         </div>
         <div className="flex flex-col">
           <h1 className="text-xl font-bold">10M+</h1>
@@ -27,9 +27,9 @@ const Numbers = () => {
         </div>
       </div>
 
-      <div className="flex space-x-5">
+      <div className="w-64 flex space-x-5 self-center">
         <div className="w-12">
-          <img src={Earth} />
+          <img src={Earth} alt="earth" />
         </div>
 
         <div className="flex flex-col">
