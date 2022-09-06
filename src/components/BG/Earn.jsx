@@ -27,7 +27,7 @@ const Earn = () => {
       </div>
 
       <div
-        className="absolute md:top-32 lg:top-32 md:left-[200px] md:right-[200px] lg:top-32 lg:left-[400px] lg:right-[400px]"
+        className="flex w-full justify-center absolute md:top-32 lg:top-32 lg:top-32 "
         data-aos="zoom-in"
       >
         <Calculate />

@@ -2,7 +2,7 @@ import React from "react";
 
 const Calculate = () => {
   return (
-    <div className="md:w-96 lg:w-full m-10 md:m-0 flex">
+    <div className="md:w-96 lg:w-[600px] m-10 md:m-0 flex">
       <div className="lg:w-full rounded-lg p-5 lg:p-10 bg-white text-black">
         <form className="lg:space-x-7 space-y-7 lg:space-y-0">
           <input
