@@ -8,11 +8,11 @@ const Mining = () => {
     AOS.refresh();
   }, []);
   return (
-    <div
-      className="bg-gradient-to-b from-[#2B076E] to-[#0D0D2B] text-white pb-10 lg:pb-32 px-3 lg:px-10"
-    
-    >
-      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-10 p-10 bg-[#3671E9] bg-img-mining bg-no-repeat bg-cover bg-center rounded-2xl" data-aos="zoom-in">
+    <div className="bg-gradient-to-b from-[#2B076E] to-[#0D0D2B] text-white pb-10 lg:pb-32 px-3 lg:px-10">
+      <div
+        className="bg-img-mining grid md:grid-cols-2 lg:grid-cols-2 gap-10 p-10 bg-[#3671E9] bg-no-repeat bg-cover bg-center rounded-2xl"
+        data-aos="zoom-in"
+      >
         <div>
           <h1 className="text-4xl font-bold">Start Mining</h1>
           <p>
