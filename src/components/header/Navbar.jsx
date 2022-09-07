@@ -22,11 +22,10 @@ const navMenu = [
 ];
 
 const MobileNav = () => {
-  const [trans, setTrans] = useState(
+  const [trans] = useState(
     "flex flex-col bg-slate-800 fixed w-full h-full text-3xl overflow-hidden right-0 bottom-0 top-0 z-30 transition-all ease-in-out duration-300"
   );
 
-  const handleTrans = () => setTrans("w-0");
 
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(!show);
