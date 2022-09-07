@@ -23,7 +23,7 @@ const price = prices.map((price) => {
             </p>
           </div>
         </div>
-        <div className="flex w-full md:w-96 justify-between">
+        <div className="flex w-full md:w-96 justify-between xl:pl-5">
           <div>
             <small className="text-white">${price.amount}</small>
           </div>
@@ -46,7 +46,8 @@ const price = prices.map((price) => {
 const Prices = () => {
   return (
     <div className="bg-[#35068C] rounded-lg py-2">
-      <div className="flex justify-between w-56 pr-2 md:w-[410px] md:pr-5 lg:w-80 ml-auto lg:pr-5">
+      <div className="flex justify-between w-56 pr-2 md:w-[410px] md:pr-5 lg:w-56 xl:w-96 xl:pr-7 ml-auto lg:pr-5">
+     
         <small className="text-white">Price</small>
         <small className="text-white">Change</small>
         <small className="text-white">Volume(24h)</small>
