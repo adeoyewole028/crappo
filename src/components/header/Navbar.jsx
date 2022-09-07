@@ -55,7 +55,7 @@ const MobileNav = () => {
 
                   <div className="text-zinc-500">|</div>
 
-                  <a href="/" className="bg-blue-600 rounded-full px-3">
+                  <a href="/" className="bg-blue-600 rounded-full py-1 px-3">
                     Register
                   </a>
                 </div>

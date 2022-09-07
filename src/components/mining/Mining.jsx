@@ -20,9 +20,9 @@ const Mining = () => {
           </p>
         </div>
         <div className="self-center">
-          <form className="md:flex md:space-x-5 lg:space-x-10 space-y-5">
+          <form className="md:flex md:space-x-5 lg:space-x-10 space-y-5 lg:space-y-0">
             <input
-              className="w-60 border-b-2 outline-0 bg-transparent"
+              className="w-60 lg:w-64 border-b-2 pl-3 outline-0 bg-transparent"
               placeholder="Enter your email"
             />
             <button

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.32cd40b8.css",
+    "main.js": "/static/js/main.01baff5f.js",
+    "static/js/787.cf1ae726.chunk.js": "/static/js/787.cf1ae726.chunk.js",
+    "static/media/Illustration.png": "/static/media/Illustration.6bd543a7e3549953fb0e.png",
+    "static/media/Detailed-Statistics.png": "/static/media/Detailed-Statistics.fe8eb09f1b2544c91dda.png",
+    "static/media/Illustration2.png": "/static/media/Illustration2.927d1b54b5dc647278b3.png",
+    "static/media/Ethereum.png": "/static/media/Ethereum.96a03214d0b3f7b0b71b.png",
+    "static/media/Bitcoin.png": "/static/media/Bitcoin.9bc86613b468de915cfc.png",
+    "static/media/graph.png": "/static/media/graph.5a6951e179502133f007.png",
+    "static/media/start-mining.png": "/static/media/start-mining.aa2622ee7bae3891136d.png",
+    "index.html": "/index.html",
+    "main.32cd40b8.css.map": "/static/css/main.32cd40b8.css.map",
+    "main.01baff5f.js.map": "/static/js/main.01baff5f.js.map",
+    "787.cf1ae726.chunk.js.map": "/static/js/787.cf1ae726.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32cd40b8.css",
+    "static/js/main.01baff5f.js"
+  ]
+}
